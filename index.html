@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techos Tiglio</title>
+    <link rel="icon" href="imagenes/icono01.png" type="image/x-icon" />
+    <!-- css -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/4b0ad29135.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="seccionNav">
+        <div class="container">
+            <!-- Navbar -->
+            <nav class="navbar fixed-top navbar-expand-sm">
+                <!-- brand -->
+                <a href="#" class="navbar-brand mb-0">
+                    <img src="imagenes/logo.png" alt="logo-techos-tiglio" width="120" height="80">
+                </a>
+                <!-- hamburguesa -->
+                <button 
+                class="navbar-toggler navbar-light bg-secondary"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarId"
+                aria-controls="navbarId"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- navbar items -->
+                <div id="navbarId" class="collapse navbar-collapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#seccionCabecera" class="nav-link">Inicio</a>
+                        </li>
+                       <li class="nav-item">
+                            <a href="#seccionQuienesSomos" class="nav-link">Quienes somos</a>
+                        </li>
+                       <li class="nav-item">
+                            <a href="#seccionServicios" class="nav-link">Servicios</a>
+                        </li>
+                       <li class="nav-item">
+                            <a href="#seccionServicios" class="nav-link">Trabajos realizados</a>
+                        </li>
+                       <li class="nav-item">
+                            <a href="#" class="nav-link">Contacto</a>
+                        </li>
+                    </ul>                  
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- Cabecera -->
+    <section id="seccionCabecera">
+        <div class="row">
+            <!-- contacto 01 -->
+            <div class="col-lg-6 conPadding">
+                <h1>Realizamos trabajos para <span class="amarillo">obra</span>, <span class="amarillo">hogar</span>, e <span class="amarillo">industria</span>.</h2>
+                <h2 class="contactanosh2">Contactanos:</h2>
+                <span class="fas fa-phone fa-2x"></span>
+                <h2 class="infoh2">(011)4443-7337</h2> 
+                <span class="fab fa-whatsapp fa-2x"></span>
+                <h2 class="infoh2">116-939-4488</h2> 
+                <span class="fas fa-envelope fa-2x"></span>       
+                <h2 class="infoh2"> info@techostiglio.com.ar</h2>                
+            </div>
+            <!-- Carousel -->
+            <div class="col-lg-6 conPadding">
+                <div id="carouselExampleControls" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+                    <!-- inner=interior del carousel -->
+                    <div class="carousel-inner">
+                        <!-- items -->
+                        <div class="carousel-item active">
+                            <img src="imagenes/techo01.png" class="d-block w-100" alt="...">
+                        </div>
+                            <div class="carousel-item">
+                        <img src="imagenes/techo02.png" class="d-block w-100" alt="...">
+                            </div>
+                        <div class="carousel-item">
+                            <img src="imagenes/techo03.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <!-- flechitas=controles -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>                
+            </div>
+        </div>
+    </section>
+    <!-- tarjetas -->
+    <section id="seccionTarjetas">
+        <!-- primero la LINEA -->
+      <div class="row text-center">
+          <!-- col-lg-6 = cuando la pantalla sea grandes
+          quiero que esta columna ocupe el 50%
+          col-md-6 = cuando la pantalla sea mediana
+          quiero que esta columna ocupe el 50%
+          (para que muestre siempre 2 y 2, ya que son 4) -->
+        <div class="col-lg-6 col-md-6">
+          <span class="fas fa-medal fa-4x"></span>
+          <h3 class="amarillo">Experiencia</h3>   
+          <p>Desde 1976. Una empresa con más de 40 años de trayectoria.</p>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <span class="fas fa-address-card fa-4x"></span>
+          <h3 class="amarillo">Asesoramiento</h3>
+          <p>Somos un grupo de profesionales que brindamos asesoramiento completo a nuestros clientes.</p>    
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <span class="fas fa-stopwatch fa-4x"></span>
+          <h3 class="amarillo">Disponibilidad</h3>
+          <p>Contamos con servicio 24/7, pudiendo estar presente siempre que sea requerido.</p>    
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <span class="fas fa-check-circle fa-4x"></span>
+          <h3 class="amarillo">Reputación</h3>
+          <p>Reconocidos por nuestro trabajo por las grandes indústrias del ramo.</p>    
+        </div>         
+      </div>
+    </section>
+    <!-- quienes somos -->
+    <section id="seccionQuienesSomos">
+        <div class="container-md">
+            <div class="row seccionLista">
+                <h2 class="quienesSomosh2">Quienes somos</h2>
+                <div class="col-lg-6">
+                    <p>
+                        Somos una empresa familiar creada en 1976 por Jorge Alberto Tiglio, 
+                        dedicada a la provision y colocación de productos impermeabilizantes. 
+                        Nos avala una larga trayectoria y una importante cartera de clientes.
+                    </p>
+                    <h2 id="seccionServicios" class="serviciosh2">Servicios</h2>
+                    <ul>
+                        <li><i class="fas fa-check fa-1x"></i> <span class="amarillo"> Membranas.</span> </li>
+                        <li><i class="fas fa-check fa-1x"></i> Revestimientos Acrílicos.</li>
+                        <li><i class="fas fa-check fa-1x"></i> <span class="amarillo"> Revestimiento Asfáltico.</span> </li>
+                        <li><i class="fas fa-check fa-1x"></i> Resinas Poliester.</li>
+                        <li><i class="fas fa-check fa-1x"></i> <span class="amarillo"> Selladores.</span><li>
+                        <li><i class="fas fa-check fa-1x"></i> Techos.</li>
+                        <li><i class="fas fa-check fa-1x"></i> <span class="amarillo"> Tinglados.</span></li>
+                        <li><i class="fas fa-check fa-1x"></i> Canteros.</li>
+                        <li><i class="fas fa-check fa-1x"></i> <span class="amarillo"> Fundaciones.</span></li>
+                        <li><i class="fas fa-check fa-1x"></i> Medianeras.</li>
+                        <li><i class="fas fa-check fa-1x"></i> <span class="amarillo"> Piletas.</span></li>
+                        <li><i class="fas fa-check fa-1x"></i> Aislaciones Térmicas.</li>
+                    </ul>
+                    <h2>Colocador autorizado de productos<span class="amarillo">ormiflex</span> </h2>
+                </div>
+                <div class="col-lg-6">
+                     <img src="imagenes/techos-ormiflex.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- nuestros trabajos -->
+    <section id="nuestrosTrabajos">
+        <div class="row">
+            <h2 class="nuestrosTrabajosh2">Nuestros trabajos</h2>
+            <div class="col-lg-4">
+                <div id="carouselExampleControls" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="imagenes/techo03.png" class="d-block w-100" alt="...">
+                        </div>
+                            <div class="carousel-item">
+                        <img src="imagenes/techo01.png" class="d-block w-100" alt="...">
+                            </div>
+                        <div class="carousel-item">
+                            <img src="imagenes/techo02.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>                
+            </div>
+            <div class="col-lg-4">
+                <div id="carouselExampleControls" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="imagenes/techo01.png" class="d-block w-100" alt="...">
+                        </div>
+                            <div class="carousel-item">
+                        <img src="imagenes/techo03.png" class="d-block w-100" alt="...">
+                            </div>
+                        <div class="carousel-item">
+                            <img src="imagenes/techo02.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>                
+            </div>
+            <div class="col-lg-4">
+                <div id="carouselExampleControls" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="imagenes/techo02.png" class="d-block w-100" alt="...">
+                        </div>
+                            <div class="carousel-item">
+                        <img src="imagenes/techo01.png" class="d-block w-100" alt="...">
+                            </div>
+                        <div class="carousel-item">
+                            <img src="imagenes/techo03.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>                
+            </div>  
+            <div class="col-lg-4">
+                <div id="carouselExampleControls" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="imagenes/techo03.png" class="d-block w-100" alt="...">
+                        </div>
+                            <div class="carousel-item">
+                        <img src="imagenes/techo02.png" class="d-block w-100" alt="...">
+                            </div>
+                        <div class="carousel-item">
+                            <img src="imagenes/techo01.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>                
+            </div>
+            <div class="col-lg-4">
+                <div id="carouselExampleControls" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="imagenes/techo01.png" class="d-block w-100" alt="...">
+                        </div>
+                            <div class="carousel-item">
+                        <img src="imagenes/techo03.png" class="d-block w-100" alt="...">
+                            </div>
+                        <div class="carousel-item">
+                            <img src="imagenes/techo02.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>                
+            </div>
+            <div class="col-lg-4">
+                <div id="carouselExampleControls" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="imagenes/techo02.png" class="d-block w-100" alt="...">
+                        </div>
+                            <div class="carousel-item">
+                        <img src="imagenes/techo03.png" class="d-block w-100" alt="...">
+                            </div>
+                        <div class="carousel-item">
+                            <img src="imagenes/techo01.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>                
+            </div>            
+        </div>
+    </section>   
+    <section id="seccionNuestrosClientes">
+        <h2 class="nuestrosClientesh2">Nuestros clientes</h2>
+        <div class="row text-center">
+            <div class="col-lg-6 col-md-6">
+                <img src="imagenes/cliente1.png" alt="">
+                <img src="imagenes/cliente2.png" alt="">
+                <img src="imagenes/cliente4.png" alt="">
+                <img src="imagenes/cliente5.png" alt="">
+                <img src="imagenes/cliente7.png" alt="">
+                <img src="imagenes/cliente8.png" alt="">
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <img src="imagenes/cliente10.png" alt="">
+                <img src="imagenes/cliente11.png" alt="">
+                <img src="imagenes/cliente3.png" alt="">
+                <img src="imagenes/cliente6.png" alt="">
+                <img src="imagenes/cliente9.png" alt="">
+                <img src="imagenes/cliente12.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="seccionGoogleMap">
+        <h2 class="contactoh2">Contacto</h2>
+        <div class="container-md">
+            <div class="row">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.9799374894997!2d-58.592789084769684!3d-34.62994728045267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb87af6288cfb%3A0x3e370c4b315aadf7!2sCap.%20Claudio%20Rosales%201841%2C%20B1685BGG%20El%20Palomar%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1647593782500!5m2!1sen!2sar" width="1000" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>                
+            </div>
+        </div>
+    </section>
+    <!-- FALTA ESTO -->
+    <section id="seccionContacto">
+        <div class="container-md">
+            <div class="row">
+                <form action=""></form>
+            </div>          
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

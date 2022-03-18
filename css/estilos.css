@@ -1,0 +1,167 @@
+body,html{
+    width: 100%;
+    overflow-x: hidden;
+    font-size: 1.1em;
+}
+/* estilos generales */
+.conPadding{
+    padding: 4rem 1rem;
+}
+/* navBar estilos*/
+#seccionNav{
+    padding: 0 5%;
+}
+.navbar{
+    position: fixed;
+}
+nav{
+    background-color: #c9c9c9;
+    padding: 2rem;
+}
+.nav-link{
+    margin: 0.5rem;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar a{
+    color: black;
+}
+.navbar a:focus,
+.navbar a:hover{
+    color: #f3f302;
+}
+/* Cabecera estilos */
+#seccionCabecera{
+    margin-top: 28%;
+    background-color: black;
+    text-align: center;
+}
+/* cabecera contacto */
+#seccionCabecera h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #f3f302;    
+    text-transform: uppercase; 
+    line-height: 200%; 
+}
+.contactanosh2{
+    font-size: 1.7em;
+    color: white;
+    margin-top: 3em;
+    text-decoration: overline #f3f302;
+}
+#seccionCabecera .fa-2x{
+    color: #f3f302;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+.infoh2{
+    font-size: 1.2em;
+    font-family: 'Roboto';
+    color: white;
+}
+.carousel-item img{
+    width: 100%;
+}
+.amarillo{
+    padding: 0.5% 0.5%;
+    margin: 1%;
+    color: black;
+    background-color: #f3f302;
+    text-transform: uppercase;
+}
+/* tarjetas */
+#seccionTarjetas .row{
+    background-color: #c9c9c9;
+    padding: 5em 2em;
+}
+#seccionTarjetas h3{
+    width: 75%;
+    margin: auto;
+    margin-bottom: 1em;
+}
+#seccionTarjetas span{
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    color: #f3f302;
+}
+/* seccion quienes somos */
+#seccionQuienesSomos{
+    background-color: black;
+    color: white;
+    padding-bottom: 5em;
+}
+.quienesSomosh2{
+    padding: 5em 2em 1em 2em;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: overline #f3f302;
+}
+#seccionQuienesSomos p{
+    margin: 1em 2em 4em 2em;
+    font-size: 1.1em;
+}
+.serviciosh2{
+    padding: 2em 2em 2.5em 2em;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Montserrat',
+    sans-serif;
+    text-decoration: overline #f3f302;
+}
+#seccionQuienesSomos ul{
+    padding-left: 0;
+    list-style: none;
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+#seccionQuienesSomos i{
+    padding: 0.2em 0.4em;
+    background-color: black;
+    color: #f3f302;
+    margin-bottom: 1em;
+}
+#seccionQuienesSomos img{
+    margin: 2em 0 2em 0;
+}
+/* nuestros trabajos */
+#nuestrosTrabajos{
+    background-color: #c9c9c9;
+}
+#nuestrosTrabajos .col-lg-4{
+    padding: 0;
+}
+.nuestrosTrabajosh2{
+    padding: 4em 2em 2em 2em;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Montserrat',
+    sans-serif;
+    text-decoration: overline #f3f302;
+}
+/* nuestros clientes */
+#seccionNuestrosClientes .row{
+    padding: 0.1em;
+}
+.nuestrosClientesh2{
+    padding: 4em 2em 2em 2em;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Montserrat',sans-serif;
+    text-decoration: overline #f3f302;
+}
+/* contacto */
+.contactoh2{
+    padding: 4em 2em 2em 2em;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Montserrat',
+    sans-serif;
+    color: white;
+    text-decoration: overline #f3f302;
+    background-color: black;
+}
